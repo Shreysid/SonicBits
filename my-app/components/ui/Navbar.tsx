@@ -1,11 +1,8 @@
 "use client"; // Required when using `useRouter` in client components
 
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
 
 export default function Component() {
-  const router = useRouter();
-
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-white bg-opacity-70 shadow-md">

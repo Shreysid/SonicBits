@@ -1,9 +1,9 @@
 import Footer from "@/components/ui/Footer";
-import Navbar from "../../components/ui/Navbar"
+import Navbar from "../../components/ui/Navbar";
 
 const FAQ = () => {
-    return (
-      <>
+  return (
+    <>
       <Navbar />
       <section className="py-20 bg-white">
         <h2 className="text-3xl font-bold text-center mb-8 text-gray-900">Frequently Asked Questions (FAQ)</h2>
@@ -11,7 +11,7 @@ const FAQ = () => {
         <div className="max-w-2xl mx-auto space-y-8 text-gray-800">
           <div>
             <h3 className="font-semibold text-lg">1. How do I record a sound sample?</h3>
-            <p>To record a sound, simply tap the record button on the main interface. You can use your device’s built-in microphone or connect an external mic for higher quality. Once you’re done, tap the stop button to save your recording.</p>
+            <p>To record a sound, simply tap the record button on the main interface. You can use your device&rsquo;s built-in microphone or connect an external mic for higher quality. Once you&rsquo;re done, tap the stop button to save your recording.</p>
           </div>
 
           <div>
@@ -56,14 +56,13 @@ const FAQ = () => {
 
           <div>
             <h3 className="font-semibold text-lg">10. How do I report a bug or request new features?</h3>
-            <p>If you encounter any issues or have feature requests, you can reach out to our support team through the app's settings or email us at [support email]. We’re always happy to help!</p>
+            <p>If you encounter any issues or have feature requests, you can reach out to our support team through the app&rsquo;s settings or email us at [support email]. We&rsquo;re always happy to help!</p>
           </div>
         </div>
       </section>
-      <Footer/>
-      </>
-    );
-  };
-  
-  export default FAQ;
-  
+      <Footer />
+    </>
+  );
+};
+
+export default FAQ;
