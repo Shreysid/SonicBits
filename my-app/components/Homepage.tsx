@@ -1,11 +1,12 @@
 "use client";
 
 import { Star } from "lucide-react";
-import Navbar from "../ui/Navbar";
-import PocketAudio from "../ui/PocketAudio";
-import Features from "../ui/Features";
-import Screenshots from "../ui/Screenshots";
-import Button from "../ui/button";
+import Navbar from "./ui/Navbar";
+import PocketAudio from "./ui/PocketAudio";
+import Features from "./ui/Features";
+import Screenshots from "./ui/Screenshots";
+import Button from "./ui/button";
+import Footer from "./ui/Footer";
 
 export function Home() {
   return (
@@ -35,8 +36,8 @@ export function Home() {
             ))}
           </div>
           <blockquote className="text-xl text-gray-600 mb-4 max-w-2xl mx-auto text-center italic">
-            &quot;SonicBits has completely transformed how I produce music on the go.
-            It&apos;s like having a full studio in my pocket!&quot;
+            &quot;SonicBits has completely transformed how I produce music on
+            the go. It&apos;s like having a full studio in my pocket!&quot;
           </blockquote>
           <p className="text-gray-800 font-semibold text-center">
             - Cleo Murray, Independent Artist
@@ -57,19 +58,7 @@ export function Home() {
         </section>
       </main>
 
-      <footer className="bg-gray-100 py-8">
-        <div className="container mx-auto px-4 text-center text-gray-600">
-          <p>&copy; 2024 SonicBits. All rights reserved.</p>
-          <div className="mt-4">
-            <a href="#" className="text-indigo-600 hover:underline mx-2">
-              Privacy Policy
-            </a>
-            <a href="#" className="text-indigo-600 hover:underline mx-2">
-              Terms of Service
-            </a>
-          </div>
-        </div>
-      </footer>
+      <Footer/>
     </div>
   );
 }
