@@ -5,7 +5,7 @@ import React from 'react';
 const PrivacyPolicy = () => {
   return (
     <>
-    <Navbar/>
+    <Navbar />
     <div className="min-h-screen bg-gray-100 py-10">
       <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
         <h1 className="text-4xl font-bold mb-6 text-center text-gray-800">Privacy Policy</h1>
@@ -31,7 +31,7 @@ const PrivacyPolicy = () => {
           <li><strong>Account</strong>: A unique account created for you to access our service.</li>
           <li><strong>Affiliate</strong>: Any entity controlled by, controlling, or under common control with us.</li>
           <li><strong>Application</strong>: SonicBits, the software provided by the Company.</li>
-          <li><strong>Company</strong>: SonicBits, referred to as "the Company," "We," "Us," or "Our".</li>
+          <li><strong>Company</strong>: SonicBits, referred to as &quot;the Company,&quot; &quot;We,&quot; &quot;Us,&quot; or &quot;Our&quot;.</li>
           <li><strong>Country</strong>: Karnataka, India.</li>
           <li><strong>Device</strong>: Any device capable of accessing our service.</li>
           <li><strong>Personal Data</strong>: Any information related to an identifiable individual.</li>
@@ -51,7 +51,7 @@ const PrivacyPolicy = () => {
 
         <h4 className="text-lg font-semibold mb-2 text-gray-800">Usage Data</h4>
         <p className="mb-8 text-gray-700">
-          Usage data is collected automatically and may include your device’s IP address, browser type, and interactions with the service.
+          Usage data is collected automatically and may include your device&rsquo;s IP address, browser type, and interactions with the service.
         </p>
 
         <h3 className="text-xl font-semibold mb-2 text-gray-800">How We Use Your Data</h3>
@@ -60,7 +60,7 @@ const PrivacyPolicy = () => {
           <li><strong>Account management</strong>, allowing you access to the service.</li>
           <li><strong>Contract performance</strong>, processing and delivering purchases or services.</li>
           <li><strong>Communications</strong> via email, phone, or app notifications for updates and relevant information.</li>
-          <li><strong>Marketing</strong>, offering news, promotions, or related events unless you opt-out.</li>
+          <li><strong>Marketing</strong>, offering news, promotions, or related events unless you opt out.</li>
           <li><strong>Request management</strong> for handling your requests.</li>
         </ul>
 
@@ -98,7 +98,7 @@ const PrivacyPolicy = () => {
         </p>
         <h3 className="text-xl font-semibold mb-2 text-gray-800">Legal Requirements</h3>
         <p className="mb-8 text-gray-700">
-          We may disclose your data when required by law or to protect the Company’s rights and safety.
+          We may disclose your data when required by law or to protect the Company&rsquo;s rights and safety.
         </p>
 
         <h2 className="text-2xl font-semibold mb-4 text-gray-800">8. Security</h2>
@@ -106,7 +106,7 @@ const PrivacyPolicy = () => {
           We take reasonable steps to protect your data, but no method of transmission over the internet is 100% secure.
         </p>
 
-        <h2 className="text-2xl font-semibold mb-4 text-gray-800">9. Children’s Privacy</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-gray-800">9. Children&rsquo;s Privacy</h2>
         <p className="mb-8 text-gray-700">
           We do not knowingly collect personal data from anyone under 13. If you believe your child has provided us with personal data, please contact us.
         </p>
@@ -124,7 +124,7 @@ const PrivacyPolicy = () => {
         </ul>
       </div>
     </div>
-    <Footer/>
+    <Footer />
     </>
   );
 };

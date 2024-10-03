@@ -7,9 +7,6 @@ export default function Footer() {
 
   const router = useRouter();
 
-  const handleClick = () => {
-    router.push('/FAQ'); // Redirect to '/Support'
-  };
   
   return (
     <footer className="bg-gray-100 py-8">
