@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Button from './button'
+import startPage from "../../app/Assets/page1.webp"
 
 export default function pocketAudio() {
   return (
@@ -15,7 +16,7 @@ export default function pocketAudio() {
          </div>
           <div className="relative w-full max-w-lg mx-auto">
             <Image
-              src="/placeholder.svg?height=600&width=300"
+              src={startPage}
               alt="BeatMixer App Screenshot"
               width={300}
               height={600}
