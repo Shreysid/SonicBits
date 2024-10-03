@@ -1,5 +1,7 @@
 import React from "react";
 
-export default function () {
-  return <div> hello</div>;
-}
+const HelloComponent = () => {
+  return <div>hello</div>;
+};
+
+export default HelloComponent;
