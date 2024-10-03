@@ -35,8 +35,8 @@ export function Home() {
             ))}
           </div>
           <blockquote className="text-xl text-gray-600 mb-4 max-w-2xl mx-auto text-center italic">
-            "SonicBits has completely transformed how I produce music on the go.
-            It's like having a full studio in my pocket!"
+            &quot;SonicBits has completely transformed how I produce music on the go.
+            It&apos;s like having a full studio in my pocket!&quot;
           </blockquote>
           <p className="text-gray-800 font-semibold text-center">
             - Cleo Murray, Independent Artist
