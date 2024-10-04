@@ -53,7 +53,7 @@ export function Home() {
             tracks on their mobile devices.
           </p>
           <div className="flex justify-center space-x-4">
-            <Button linkUrl={"https://example.com"} width={100} height={250} />
+            <Button linkUrl={"https://apps.apple.com/in/app/sonicbits/id6733229921"} width={100} height={250} />
           </div>
         </section>
       </main>

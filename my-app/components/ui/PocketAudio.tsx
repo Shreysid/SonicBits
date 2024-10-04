@@ -12,7 +12,7 @@ export default function pocketAudio() {
             Professional-grade audio tools for musicians, DJs, and producers - now in the palm of your hand
           </p>
          <div className='p-8'>
-         <Button linkUrl={''} width={300} height={150}/>
+         <Button linkUrl={'https://apps.apple.com/in/app/sonicbits/id6733229921'} width={300} height={150}/>
          </div>
           <div className="relative w-full max-w-lg mx-auto">
             <Image

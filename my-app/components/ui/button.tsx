@@ -8,7 +8,7 @@ export default function Button(props: {
   height: number,
   
 } = {
-  linkUrl: 'https://example.com',
+  linkUrl: 'https://apps.apple.com/in/app/sonicbits/id6733229921',
   width: 300,
   height: 300
 }) {
